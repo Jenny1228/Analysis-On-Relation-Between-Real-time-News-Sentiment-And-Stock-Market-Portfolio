@@ -1,4 +1,5 @@
 # Analysis-On-Relation-Between-Real-time-News-Sentiment-And-Stock-Market-Portfolio
+To run the python notebook, you will need the file called all_news.csv, which contains news titles collected from April 11 to May 14.
 In this project, we use two sets of data to draw insights on how media sentiment can be an indicator for the financial sector. 
 For the financial data, we used daily return of the market, which is a good indicator for market fluctuation; for media sentiment, we used summarized information of news pieces from top 10 most popular press because of their stronger influence in shaping people's perception of events that are happening in the world.
 Both sets of data are real-time, which means the source files are of the moment and need to be loaded each time analysis is performed. The sentiment analysis library returns a polarity score (-1.0 to 1.0) and a subjectivity score (0.0 to 1.0) on the news stories. Using quantified sentiment analysis, we juxtapose the two time series of data and observe if there is a postive correlation between polarity and S&P500 index. 
